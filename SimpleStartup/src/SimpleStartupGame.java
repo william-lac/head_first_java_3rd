@@ -17,7 +17,7 @@ class SimpleStartupGame {
             if (result.equals("kill")) {
                 isAlive = false;
                 System.out.println("You took " + numOfGuesses + " guesses");
-            } // close if
+            } // close ift
         } // close while
     }
 }
