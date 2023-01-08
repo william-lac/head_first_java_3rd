@@ -4,6 +4,7 @@ class SimpleStartupGame {
         GameHelper helper = new GameHelper();
 
         SimpleStartup theStartup = new SimpleStartup();
+        // because Math.random returns a double, (int) need to be added to casted.
         int randomNum = (int) (Math.random() * 5);
 
         int[] locations = {randomNum, randomNum + 1, randomNum + 2};
