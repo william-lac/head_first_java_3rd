@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="24446a0d-0251-428c-984b-cf86edd0fd03" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StartupBust.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SimpleStartup/out/production/SimpleStartup/SimpleStartup.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../SimpleStartup/out/production/SimpleStartup/SimpleStartupGame.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../SimpleStartup/out/production/SimpleStartup/SimpleStartupTestDrive.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleStartup/src/Startup.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SimpleStartup/src/Startup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/StartupBust.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StartupBust.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
