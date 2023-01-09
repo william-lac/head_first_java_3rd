@@ -3,7 +3,7 @@ class SimpleStartupGame {
         int numOfGuesses = 0;
         GameHelper helper = new GameHelper();
 
-        SimpleStartup theStartup = new SimpleStartup();
+        Startup theStartup = new Startup();
         // because Math.random returns a double, (int) need to be added to casted.
         int randomNum = (int) (Math.random() * 5);
 
