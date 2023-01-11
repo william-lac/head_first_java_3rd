@@ -88,5 +88,9 @@ public class GameHelper {
         return letter + row;
     } // end getAlphaCoordsFromIndex
 
+    private int calcRowFromIndex(int index) {
+        return index / GRID_LENGTH;
+    } // end calcRowFromIndex
+
 
 }
