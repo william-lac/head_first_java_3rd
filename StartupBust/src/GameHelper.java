@@ -1,3 +1,4 @@
+import java.lang.module.FindException;
 import java.util.*;
 public class GameHelper {
     private static final String ALPHABET = "abcdefg";
@@ -64,6 +65,12 @@ public class GameHelper {
         }
         return true;
     } // end coordsAvailable
+
+    private void savePositionToGrid(int[] startupCoords) {
+        for (int index : startupCoords) {
+            grid[index] = 1;
+        }
+    } // end savePositionToGrid
 
 
 
