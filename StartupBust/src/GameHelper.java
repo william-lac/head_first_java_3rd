@@ -55,4 +55,16 @@ public class GameHelper {
         }
     } // end startupFits
 
+    private boolean coordsAvailable(int[] startupCoords) {
+        for (int coord : startupCoords) {
+            if (grid[coord] != 0) {
+                // System.out.println("position: " + coord + " already taken.");
+                return false;
+            }
+        }
+        return true;
+    } // end coordsAvailable
+
+
+
 }
