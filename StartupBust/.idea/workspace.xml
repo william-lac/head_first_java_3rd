@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="24446a0d-0251-428c-984b-cf86edd0fd03" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/GameHelper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SimpleStartup/out/production/SimpleStartup/SimpleStartup.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../SimpleStartup/out/production/SimpleStartup/SimpleStartupGame.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../SimpleStartup/out/production/SimpleStartup/SimpleStartupTestDrive.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GameHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameHelper.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -45,4 +45,14 @@ public class GameHelper {
         return alphaCells;
     } //end placeStartup
 
+    private boolean startupFits(int[] startupCoords, int increment) {
+        int finalLocation = startupCoords[startupCoords.length - 1];
+        if (increment == HORIZONTAL_INCREMENT) {
+            // check end is on same row as start
+            return calcRowFromIndex(startupCoords[0]) == calcRowFromIndex(finalLocation);
+        } else {
+            return finalLocation < GRID_SIZE;
+        }
+    } // end startupFits
+
 }
