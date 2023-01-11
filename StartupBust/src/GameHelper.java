@@ -72,6 +72,13 @@ public class GameHelper {
         }
     } // end savePositionToGrid
 
-
+    private ArrayList<String> convertCoordsToAlphaFormat(int[] startupCoords) {
+        ArrayList<String> alphaCells = new ArrayList<String>();
+        for (int index : startupCoords) {
+            String alphaCoords = getAlphaCoordsFromIndex(index);
+            alphaCells.add(alphaCoords);
+        }
+        return alphaCells;
+    } // end convertCoordsToAlphaFormat
 
 }
