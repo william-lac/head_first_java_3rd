@@ -15,7 +15,7 @@ public class GameHelper {
     public String getUserInput(String prompt) {
         System.out.print(prompt + ": ");
         Scanner scanner = new Scanner(System.in);
-        return scanner.nextLin().toLowerCase();
+        return scanner.nextLine().toLowerCase();
     }
 
     public ArrayList<String> placeStartup(int startupSize) {
@@ -80,5 +80,13 @@ public class GameHelper {
         }
         return alphaCells;
     } // end convertCoordsToAlphaFormat
+
+    private String getAlphaCoordsFromIndex(int index) {
+        int row = calcRowFromIndex(index);
+        int column = index % GRID_LENGTH;
+        String letter = ALPHABET.substring((column, column + 1));
+        return letter + row;
+    } // end getAlphaCoordsFromIndex
+
 
 }
