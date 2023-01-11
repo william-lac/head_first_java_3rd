@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="24446a0d-0251-428c-984b-cf86edd0fd03" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Startup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GameHelper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SimpleStartup/out/production/SimpleStartup/SimpleStartup.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../SimpleStartup/out/production/SimpleStartup/SimpleStartupGame.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../SimpleStartup/out/production/SimpleStartup/SimpleStartupTestDrive.class" beforeDir="false" />
