@@ -23,7 +23,7 @@ public class StartupBust {
         System.out.println("poniez, hacqi, cabista");
         System.out.println("Try to sink them all in the fewest number of guesses");
 
-        for (startup startup : startups) {
+        for (Startup startup : startups) {
             ArrayList<String> newLocation = helper.placeStartup(3);
             startup.setLocationCells(newLocation);
         } // close for loop
